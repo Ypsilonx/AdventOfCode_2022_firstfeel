@@ -47,7 +47,7 @@ def split_seq(seq, sep):
            yield seq[start:]
            break
 
-with open('input.txt', encoding='utf-8') as elfs:
+with open('input1.txt', encoding='utf-8') as elfs:
     calories = elfs.readlines()
     
 calories_1 = [item.split('\n')[0] for item in calories]
