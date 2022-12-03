@@ -83,12 +83,12 @@ for index in range(100):
         if element in batoh_1[i[1]]:
             if element in batoh_1[i[2]]:
                 ele.append(element)
-                odznak.append(ele[0])
+    odznak.append(ele[0])
     a += 3 
     b += 3
     c += 3
 
-print(len(odznak))
+print(odznak)
 
-# vysledek = (pd.Series(odznak)).map(priority)
-# print(sum(vysledek))
+vysledek = (pd.Series(odznak)).map(priority)
+print(sum(vysledek))
