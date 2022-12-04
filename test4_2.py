@@ -13,7 +13,8 @@ def PracovniDvojka(x):
     verdikt_1 = set(druhy_elf_prace).issubset(porovnani_1)
     porovnani_2 = set(druhy_elf_prace)
     verdikt_2 = set(prvni_elf_prace).issubset(porovnani_2)
-    return f'{verdikt_1+verdikt_2}'
+    verdikt_3 = bool(list(porovnani_1 & porovnani_2))
+    return f'{verdikt_1+verdikt_2+verdikt_3}'
 
 with open('input4.txt', encoding='utf-8') as elfs:
     dvojice = elfs.readlines()
@@ -42,4 +43,6 @@ jedna = verdikt.count('1')
 print(jedna)
 dva = verdikt.count('2')
 print(dva)
-print(f'Výsledek: {jedna + dva}')
+tri = verdikt.count('3')
+print(tri)
+print(f'Výsledek: {jedna + dva + tri}')

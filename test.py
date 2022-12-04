@@ -22,7 +22,7 @@
 #         ele.append(element)
 #         print(ele[0])
 
-batoh_1 = ['vJrwpWtwJgWrhcsFMMfFFhFp','jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL','PmmdzqPrVvPwwTWBwg','wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn','ttgJtRGJQctTZtZT','CrZsJsPPZsGzwwsLwLmpwMDw']
+#batoh_1 = ['vJrwpWtwJgWrhcsFMMfFFhFp','jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL','PmmdzqPrVvPwwTWBwg','wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn','ttgJtRGJQctTZtZT','CrZsJsPPZsGzwwsLwLmpwMDw']
 
 # ele = []
 # for element in batoh_1:
@@ -31,17 +31,21 @@ batoh_1 = ['vJrwpWtwJgWrhcsFMMfFFhFp','jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL','Pmmdzq
 #             ele.append(element)
 #             print(ele[0])
 
-odznak = []
-a = 0 
-ele = []
-for element in batoh_1[a]:
-    a += 3 
-    b = 1
-    if element in batoh_1[b]:
-        b += 3
-        c = 2
-        if element in batoh_1[c]:
-            ele.append(element)
-            odznak.append(ele[0])
-            c += 3
-            print(odznak)
+# odznak = []
+# a = 0 
+# ele = []
+# for element in batoh_1[a]:
+#     a += 3 
+#     b = 1
+#     if element in batoh_1[b]:
+#         b += 3
+#         c = 2
+#         if element in batoh_1[c]:
+#             ele.append(element)
+#             odznak.append(ele[0])
+#             c += 3
+#             print(odznak)
+
+range_f = range(1,100)
+for x in range_f:
+    print(x)
