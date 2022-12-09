@@ -5,3 +5,4 @@ Puzzles of programming.
 3. __DONE__ 🎄
 4. __DONE__ 😊
 5. __DONE__ 🎁
+6. __DONE__ 🎇
